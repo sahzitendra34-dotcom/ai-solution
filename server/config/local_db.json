@@ -1,0 +1,18 @@
+{
+  "admins": [],
+  "inquiries": [],
+  "testimonials": [
+    {
+      "_id": "6a26d70478b151ee7442f8c8",
+      "createdAt": "2026-06-08T14:51:49.006Z",
+      "name": "hjfyju",
+      "company": "tyrtioi",
+      "rating": 4,
+      "feedback": "hiii",
+      "approved": true
+    }
+  ],
+  "blogs": [],
+  "events": [],
+  "gallery": []
+}

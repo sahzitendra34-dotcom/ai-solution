@@ -1,0 +1,23 @@
+{
+  "name": "ai-solutions-workspace",
+  "version": "1.0.0",
+  "description": "Monorepo workspace for AI-Solutions UK client-server corporate platform",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "setup": "npm run install-server && npm run install-client",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "seed": "cd server && npm run seed",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
